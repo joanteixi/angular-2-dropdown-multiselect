@@ -57,7 +57,7 @@ export class MyClass implements OnInit {
 In your template, use the component directive:
 
 ```html
-<ss-multiselect-dropdown [options]="myOptions" [(ngModel)]="optionsModel" (ngModelChange)="onChange($event)"></ss-multiselect-dropdown>
+<ss-multiselect-dropdown [options]="myOptions" [(ngModel)]="optionsModel" (ngModelChange)="onChange()"></ss-multiselect-dropdown>
 ```
 
 ## Customize
